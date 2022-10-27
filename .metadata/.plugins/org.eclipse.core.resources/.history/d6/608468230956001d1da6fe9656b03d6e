@@ -1,0 +1,25 @@
+package calculadora;
+
+import java.util.Scanner;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int numero1, numero2;
+		
+		System.out.println("Digite o primeiro numero: ");
+		numero1 = leia.nextInt();
+		
+		System.out.println("Digite o segundo numero: ");
+		numero2 = leia.nextInt();
+		
+		System.out.println("\n" + numero1 + " + " + numero2 + " = " + (numero1 + numero2));
+		System.out.println("\n" + numero1 + " - " + numero2 + " = " + (numero1 - numero2));
+		System.out.println("\n" + numero1 + " * " + numero2 + " = " + (numero1 * numero2));
+		System.out.println("\n" + numero1 + " / " + numero2 + " = " + (numero1 / numero2));
+	}
+
+}

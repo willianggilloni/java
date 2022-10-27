@@ -1,0 +1,50 @@
+package Aula1Java;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class MediaFinal {
+
+	public static void main(String[] args) {
+		
+		int nota1,nota2,nota3,nota4,mediaFinal
+		
+		System.out.println("Digite a nota 1: ");
+		Scanner leia = new Scanner(System.in);
+		
+		DecimalFormat df = new DecimalFormat("###.##");
+		int numero1, numero2;
+		
+		System.out.println("Digite o primeiro numero: ");
+		numero1 = leia.nextInt();
+		
+		System.out.println("Digite o segundo numero: ");
+		numero2 = leia.nextInt();
+	}
+
+}
+
+
+programa {
+
+	  funcao inicio() {
+
+	    real nota1,nota2,nota3,nota4,mediaFinal
+
+	    escreva("Digite a nota 1: ")
+	    leia(nota1)
+
+	    escreva("Digite a note 2: ")
+	    leia(nota2)
+
+	    escreva("Digite a note 3: ")
+	    leia(nota3)
+
+	    escreva("Digite a note 4: ")
+	    leia(nota4)
+
+	    mediaFinal=(nota1 + nota2 + nota3 + nota4)/4)
+	    escreva("\n"," Média final é :", mediaFinal )
+
+	  }
+	}

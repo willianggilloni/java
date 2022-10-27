@@ -1,0 +1,25 @@
+package salario;
+
+import java.util.Scanner;
+
+public class Salario {
+
+	public static void main(String[] args) {
+		
+		int salario,abono,novoSalario;
+		
+		Scanner leia = new Scanner(System.in);
+
+		
+		System.out.println("Digite o salário: ");
+		salario = leia.nextInt();
+		
+		System.out.println("Digite o abono: ");
+		abono = leia.nextInt();
+		
+		System.out.println("\n" + salario + " + " + abono + " = " + (salario + abono));
+
+	}
+
+}
+
