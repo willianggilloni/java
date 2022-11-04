@@ -2,26 +2,26 @@ package TestaCliente.model;
 
 public class PessoaJuridica extends TestaCliente{
 
-		private String profissao;
+		private float CNPJ;
+		
+		
 
-		public PessoaJuridica(String nome, String sobrenome, float cPF, float rG, float anoDeNascimento,
-				String profissao) {
+		public PessoaJuridica(String nome, String sobrenome, float cPF, float rG, float anoDeNascimento, float cNPJ) {
 			super(nome, sobrenome, cPF, rG, anoDeNascimento);
-			this.profissao = profissao;
+			CNPJ = cNPJ;
 		}
 
-		public String getProfissao() {
-			return profissao;
+		public float getCNPJ() {
+			return CNPJ;
 		}
 
-		public void setProfissao(String profissao) {
-			this.profissao = profissao;
+		public void setCNPJ(float cNPJ) {
+			CNPJ = cNPJ;
 		}
-		
-		
+
 		public void visualizar() {
 			super.visualizar();
-			System.out.println("\nProfissão é : " + getProfissao());
+			System.out.println("\nO CNPJ é : " + getCNPJ());
 		}
 		
 }

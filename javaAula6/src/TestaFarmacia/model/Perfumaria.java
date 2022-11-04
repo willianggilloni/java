@@ -32,7 +32,7 @@ public class Perfumaria extends TestaFarmacia{
 
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("\nProfissão é : " + getPerfume());
+		System.out.println("\nO perfume é : " + getPerfume());
 	}
 	
 }

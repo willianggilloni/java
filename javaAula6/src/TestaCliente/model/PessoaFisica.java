@@ -2,36 +2,25 @@ package TestaCliente.model;
 
 public class PessoaFisica extends TestaCliente {
 	
-	private String profissao;
+	private float CPF;
 
-	
-	
-	
-	public PessoaFisica(String nome, String sobrenome, float cPF, float rG, float anoDeNascimento, String profissao) {
+	public PessoaFisica(String nome, String sobrenome, float cPF, float rG, float anoDeNascimento, float cPF2) {
 		super(nome, sobrenome, cPF, rG, anoDeNascimento);
-		this.profissao = profissao;
+		CPF = cPF2;
+	}
+
+	public float getCPF() {
+		return CPF;
 	}
 
 
-
-
-	public String getProfissao() {
-		return profissao;
+	public void setCPF(float cPF) {
+		CPF = cPF;
 	}
-
-
-
-
-	public void setProfissao(String profissao) {
-		this.profissao = profissao;
-	}
-
-
-
 
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("\nProfissão é : " + getProfissao());
+		System.out.println("\nO CPF é : " + getCPF());
 	}
 	
 

@@ -61,7 +61,7 @@ public class TestaCliente {
 	
 	public void visualizar() {
 		System.out.println("\n************************************************");
-		System.out.println("Dados do Usuario");
+		System.out.println("Dados do Cliente");
 		System.out.println("\n************************************************");
 		System.out.println("\nNome: " + getNome());
 		System.out.println("\nSobrenome: " + getSobrenome());
